@@ -1,0 +1,292 @@
+* {
+    /* border: 1px solid red;  */
+
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color:white
+}
+
+a:hover {
+    color: rgb(218, 64, 218);
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    
+    
+}
+
+.introduction {
+    z-index: 1;
+    height: 18em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    font-size: 3em;
+    font-family: "Anton", sans-serif;
+    text-shadow: -1px 1px 2px black,
+                  1px 1px 0 #000000,
+                  1px -1px 0 #000000,
+                 -1px -1px 0 #000000;
+} 
+
+/* Instructor tile */
+
+.instructor-header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 3px;
+    align-items: flex-end;
+    padding-top: 150px;
+    
+}
+
+.main-tile-dimension {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.image-container-instructor {
+    height: 840px;
+    width: 100%;
+}
+
+.instructor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    flex-grow: 1;
+    background-color: black;
+} 
+
+
+/* Classes */
+.class-calendar {
+    color: black;
+    margin-top: 5%;
+    text-align: center;    
+}
+
+.class-container {
+    background-color: rgba(255, 255, 255, 0.647);
+    padding: 5%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    
+}
+
+td, th {
+    border: 2px solid rgb(192, 62, 215);
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    font-weight: 900;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+.bottom {
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    margin-bottom: 0px;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 10px;
+}
+
+.mapimg {
+    width: 250px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+/* About */
+
+.aboutus{
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 150px;
+    background-color: rgba(255, 255, 255, 0.778);
+}
+
+.gymfront-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    padding: 3%;
+    
+}
+
+.gymfront-caption {
+    color: #892994;
+}
+
+
+/* Sign-in page */
+
+
+  #sign-in{
+    position: fixed;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-left: 30%;
+    background-color: rgba(255, 255, 255, 0.859);
+    width: 350px;
+    border: 2px solid #dddddd65;
+    border-radius: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;   
+}
+  
+
+
+#fpw{
+    margin-left: 125px;
+    color: blue;
+}
+
+input{
+    border-radius: 3px;
+    border-width: 0.2px;
+    height: 35px;
+    width: 315px;
+    margin-bottom: 15px;
+}
+
+#continue{
+    width: 90%;
+    height: 33px;
+    margin-top: 10px;
+    padding-right: 25px;
+    font-size: 14px;
+    text-align: center;
+    background:  linear-gradient(#e06fe0, #892994);
+    border: 0.5px solid #aaaaaa;
+    border-radius: 3px; 
+ }
+
+#continue:hover{
+    background: linear-gradient(#f0d0f1, #ee36df);
+}
+
+#newaccount{
+    text-align: center;
+    color: #3c3a3a;
+}
+
+
